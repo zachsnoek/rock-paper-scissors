@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/b82a950b5f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <main>
+        <div class="instructions">
+            <p><em>Press "N" to begin or start another round.</em></p>
+            <p><em>Press "R" to reset the scoreboard.</em></p>
+        </div>
+
+        <div class="scoreboard">
+            <div>
+                <h2>Player One</h2>
+                <div class="player-one-score">0</div>
+            </div>
+
+            <div>
+                <h2>Player Two</h2>
+                <div class="player-two-score">0</div>
+            </div>
+        </div>
+
+        <div class="commands">
+            <div class="command-icon">
+                <i class="p-one-command far"></i>
+            </div>
+            <div class="command-icon">
+                <i class="p-two-command far"></i>
+            </div>
+        </div>
+
+        <div class="countdown">
+            <p class="game-text"></p>
+        </div>
+        
+        <div class="legend">
+            <div class="p-one-legend">
+                <p>Player One Commands</p>
+                <ul>
+                    <li><i class="far fa-hand-rock"></i>: A</li>
+                    <li><i class="far fa-hand-paper"></i>: S</li>
+                    <li><i class="far fa-hand-scissors"></i>: D</li>
+                </ul>
+            </div>
+            <div class="p-two-legend">
+                <p>Player Two Commands</p>
+                <ul>
+                    <li><i class="far fa-hand-rock"></i>: J</li>
+                    <li><i class="far fa-hand-paper"></i>: K</li>
+                    <li><i class="far fa-hand-scissors"></i>: L</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2020 <a href="https://github.com/zachsnoek">Zachary D. Snoek</a>
+        </footer>
+    </main>
+
+    <script src="js/styler.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

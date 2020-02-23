@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Odibee Sans', sans-serif;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.scoreboard, .commands, .legend {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.commands {
+    margin-top: 50px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+}
+
+.command-icon {
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.game-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.legend ul {
+    list-style: none;
+}
+
+.legend i {
+    margin-right: 5px;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
